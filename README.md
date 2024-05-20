@@ -1,11 +1,5 @@
-+-------------------------------------------------------------------------+
 Prefrontal cortical ripples mediate top-down suppression of hippocampal 
 reactivation during sleep memory consolidation.
-+-------------------------------------------------------------------------+
-README.txt
-
-BRIEF
-=====
 
 Code accompanying the paper: Shin, J. D. & Jadhav, S. P. (2024). Prefrontal cortical ripples mediate top-down suppression of hippocampal 
 reactivation during sleep memory consolidation.
@@ -17,6 +11,7 @@ FILES and FOLDERS
 -----------------
   ./Figure1
   jds_CA1_PFCrips_xcorr_M.m
+  
   jds_ctxrip_plotExample_M.m
   jds_plotRaster_sleepProject_M.m
   jds_rippletrig_spindlepwr_M.m
