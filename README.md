@@ -7,52 +7,51 @@ Codes were created in MATLAB 2022a.
 FILES and FOLDERS
 -----------------
   ./Figure1  
-  <b>jds_CA1_PFCrips_xcorr_M.m</b>  -  CA1-PFC ripple cross-correlation. Can use to compute cross-correlation for other events as well.  
-  <b>jds_ctxrip_plotExample_M.m</b>  -  Plots example ripple events.  
-  <b>jds_plotRaster_sleepProject_M.m</b>  -  Plots example raster with spikes, LFP, and ripples highlighted.  
-  <b>jds_rippletrig_spindlepwr_M.m</b>  -  Compares spindle power during coordinated and independent PFC ripple events.  
-  <b>jds_sleepripplerate_overtime_M.m</b>  -  Calculates rate of ripples over sleep sessions.  
-  <b>jds_triggered_wavelet_M.m</b>  -  Plots the PFC ripple triggered wavelet spectrogram. Uses the tetrode with highest number of ripples.  
+  <b>jds_CA1_PFCrips_xcorr_M.m</b>  -  Figure 1D, Figure 6A  -  CA1-PFC ripple cross-correlation. Can use to compute cross-correlation for other events as well.  
+  <b>jds_ctxrip_plotExample_M.m</b>  -  Figure 1C  -  Plots example ripple events.  
+  <b>jds_plotRaster_sleepProject_M.m</b>  -  Figure 1A  -  Plots example raster with spikes, LFP, and ripples highlighted.  
+  <b>jds_rippletrig_spindlepwr_M.m</b>  -  Figure 1G  -  Compares spindle power during coordinated and independent PFC ripple events.  
+  <b>jds_sleepripplerate_overtime_M.m</b>  -  Figure 1E-F  -  Calculates rate of ripples over sleep sessions.  
+  <b>jds_triggered_wavelet_M.m</b>  -  Figure 1B  -  Plots the PFC ripple triggered wavelet spectrogram. Uses the tetrode with highest number of ripples.  
 
   ./Figure2  
-  <b>jds_ripMod_ripPropertiesQuartiles_M.m</b>  -  Plots the relationship between PFC ripple features (frequency, amplitude, legnth) and CA1 modulation during independent PFC ripples.  
-  <b>jds_ripTrigModLargerWindow_M.m</b>  -  Plots ripple triggered modulation for CA1 and PFC. Run DFSjds_getripalignspiking_M.m to generate modulation files aligned to different ripple events.  
+  <b>jds_ripMod_ripPropertiesQuartiles_M.m</b>  -  Figure 2D  -  Plots the relationship between PFC ripple features (frequency, amplitude, legnth) and CA1 modulation during independent PFC ripples.  
+  <b>jds_ripTrigModLargerWindow_M.m</b>  -  Figure 2A-C  -  Plots ripple triggered modulation for CA1 and PFC. Run DFSjds_getripalignspiking_M.m to generate modulation files aligned to different ripple events.  
 
   ./Figure3  
-  <b>jds_CA1_rippleBursting_latency_M.m</b>  -  Plots bursting and spike latency metrics for CA1 mod cells during SWRs. Also plots the relationship between CA1 modulation index and bursting/spike latency.  
-  <b>jds_CA1mod_bumpPlots_M.m</b>  -  Plots example place fields sorted by peak on the maze.  
-  <b>jds_CA1mod_getFieldMetricsPrePost_M.m</b>  -  Compares place field metrics for CA1 mod cells (number fields, field width, etc).  
-  <b>jds_CA1mod_spatialinfo_M.m</b>  -  Calculates and plot spatial information for CA1 mod cells.  
-  <b>jds_CA1mod_stability_M.m</b>  -  Calculates stability of CA1 mod cells for consecutive run sessions.  
-  <b>jds_PPC_thetalockingstrength_M.m</b>  -  Calculates theta phase locking strength for CA1 mod cells (pairwise phase consistency-PPC, and kappa concentration parameter).  
-  <b>jds_comparePFCripmod_SWRparticipation_M.m</b>  -  Calculates and plots NREM firing rate, firing rate gain during SWRs, etc. for CA1 mod cells.  
-  <b>jds_ripTrigMod_compareRips_scatter_M.m</b>  -  Plots the relationship between modulation during coordinated ripples and independent PFC ripples.  
+  <b>jds_CA1_rippleBursting_latency_M.m</b>  -  Figure 3C  -  Plots bursting and spike latency metrics for CA1 mod cells during SWRs. Also plots the relationship between CA1 modulation index and bursting/spike latency.  
+  <b>jds_CA1mod_bumpPlots_M.m</b>  -  Figure 3A  -  Plots example place fields sorted by peak on the maze.  
+  <b>jds_CA1mod_getFieldMetricsPrePost_M.m</b>  -  Figure 3B  -  Compares place field metrics for CA1 mod cells (number fields, field width, etc).  
+  <b>jds_CA1mod_spatialinfo_M.m</b>  -  Figure 3B  -  Calculates and plot spatial information for CA1 mod cells.  
+  <b>jds_CA1mod_stability_M.m</b>  -  Figure 3B  -  Calculates stability of CA1 mod cells for consecutive run sessions.  
+  <b>jds_PPC_thetalockingstrength_M.m</b>  -  Figure 3B  -  Calculates theta phase locking strength for CA1 mod cells (pairwise phase consistency-PPC, and kappa concentration parameter).  
+  <b>jds_comparePFCripmod_SWRparticipation_M.m</b>  -  Figure 3C  -  Calculates and plots NREM firing rate, firing rate gain during SWRs, etc. for CA1 mod cells.  
+  <b>jds_ripTrigMod_compareRips_scatter_M.m</b>  -  Figure 3E  -  Plots the relationship between modulation during coordinated ripples and independent PFC ripples.  
 
   ./Figure4  
-  <b>jds_GLM_ripplepredictionArea_M.m</b>  -  Predicts ripple type (coordinated or independent) in CA1 or PFC using CA1 or PFC population activity, respsectively.  
-  <b>jds_assemblySuppressionReinstatement_M.m</b>  -  Evaluates the relationship between assembly reinstatement and CA1 assembly suppression during independent PFC ripples.  
-  <b>jds_noncoordrippletriggered_assemblystrength_M.m</b>  -  Ripple triggered assembly reactivation plots.  
-  <b>jds_plotRasterReactivation_sleepProject_M.m</b>  -  Example assembly reactivation rasters for CA1 and PFC.  
-  <b>jds_rippletriggered_compareStrengthAll_M.m</b>  -  Calculates and compares the reactivation strength of assemblies during different ripple events.  
+  <b>jds_GLM_ripplepredictionArea_M.m</b>  -  Figure 4H  -  Predicts ripple type (coordinated or independent) in CA1 or PFC using CA1 or PFC population activity, respsectively.  
+  <b>jds_assemblySuppressionReinstatement_M.m</b>  -  FIgure 4G  -  Evaluates the relationship between assembly reinstatement and CA1 assembly suppression during independent PFC ripples.  
+  <b>jds_noncoordrippletriggered_assemblystrength_M.m</b>  -  Figure 4B,D  -  Ripple triggered assembly reactivation plots.  
+  <b>jds_plotRasterReactivation_sleepProject_M.m</b>  -  Figure 4A,C  -  Example assembly reactivation rasters for CA1 and PFC.  
+  <b>jds_rippletriggered_compareStrengthAll_M.m</b>  -  Figure 4F  -  Calculates and compares the reactivation strength of assemblies during different ripple events.  
 
   ./Figure5  
-  <b>jds_CA1_SWRdimensionality_M.m</b>  -  Calculates and compares the dimensionality of independent and coordinated SWRs.  
-  <b>jds_CA1replay_rippleTypeSeqMetrics_M.m</b>  -  Compares weighted correlation, jump distances, R2, % reverse replay, and % significant replay for independent and coordinated SWR replay (line fitting decoding method).  
-  <b>jds_PCCmodNonmod_M.m</b>  -  Compares per cell comtribution (PCC) for CA1 mod and nonmod cells.  
-  <b>jds_PCCrippleReplayDifference_M.m</b>  -  Compares PCC differences between coordinated and independent SWR replay for CA1 mod and nonmod cells.  
-  <b>jds_SWR_rankordercorr_M.m</b>  -  Computes rank order correlations for independent and coordinated SWR events.  
-  <b>jds_plotReplayRaster_M.m</b>  -  Plots example replay rasters.  
-  <b>jds_sequenceRobustness_withawake_M.m</b>  -  Compares and plots sequence degradataion of independent, coordinated, and awake SWR replay events (single cell shuffles).  
-  <b>jds_sequenceScoreIndCoord_M.m</b>  -  Compares and plots weighted correlation and jump distance for independent and coordinated events (rZ shuffle method).  
+  <b>jds_CA1_SWRdimensionality_M.m</b>  -  Figure 5D  -  Calculates and compares the dimensionality of independent and coordinated SWRs.  
+  <b>jds_PCCmodNonmod_M.m</b>  -  Figure 5F  -  Compares per cell comtribution (PCC) for CA1 mod and nonmod cells.  
+  <b>jds_PCCrippleReplayDifference_M.m</b>  -  Figure 5F  -  Compares PCC differences between coordinated and independent SWR replay for CA1 mod and nonmod cells.  
+  <b>jds_SWR_rankordercorr_M.m</b>  -  Figure 5C  -  Computes rank order correlations for independent and coordinated SWR events.  
+  <b>jds_plotReplayRaster_M.m</b>  -  Figure 5A  -  Plots example replay rasters.  
+  <b>jds_sequenceRobustness_withawake_M.m</b>  -  Figure 5B  -  Compares and plots sequence degradataion of independent, coordinated, and awake SWR replay events (single cell shuffles).  
+  <b>jds_sequenceScoreIndCoord_M.m</b>  -  Figure 5E  -  Compares and plots weighted correlation and jump distance for independent and coordinated events (rZ shuffle method).  
 
   ./Figure6  
-  <b>jds_SOphaselocking_M.m</b>  -  Calculates and plots slow oscillation phase locking of spindles, pfc ripples, and CA1 SWRs.  
-  <b>jds_periSO_eventProbability_M.m</b>  -  Plots the event occurences of spindles, pfc ripples, and CA1 SWRS surrounding SO troughs (up states).  
-  <b>jds_periSO_eventProbability_ReactivationQuartiles_M.m</b>  -  Plots peri-SO CA1 reacvtivation strengths according to quartiles.  
-  <b>jds_periSO_eventProbability_ReactivationSuppression_M.m</b>  -  Plots the relationship between peri-SO CA1 reactivation strength and independent PFC ripple triggered CA1 assembly suppression.  
-  <b>jds_periSO_eventProbability_Reactivation_M.m</b>  -  Plots SO trough aligned reactivation strength for CA1 and PFC to determine reactivation timing surrounding events.  
-  <b>jds_periSO_eventProbability_bootstrapTiming_M.m</b>  -  Resampling of occurence matrix to determine significance of peaks of fold change probability plots.  
-  <b>jds_updown_replayProbabilityCoordNoncoord_M.m</b>  -  Calculates the probability of SWR replay events during up and down states of the slow oscillations.  
+  <b>jds_SOphaselocking_M.m</b>  -  Figure 6F  -  Calculates and plots slow oscillation phase locking of spindles, pfc ripples, and CA1 SWRs.  
+  <b>jds_periSO_eventProbability_M.m</b>  -  Figure 6E-F  -  Plots the event occurences of spindles, pfc ripples, and CA1 SWRS surrounding SO troughs (up states).  
+  <b>jds_periSO_eventProbability_ReactivationQuartiles_M.m</b>  -  Figure 6H  -  Plots peri-SO CA1 reacvtivation strengths according to quartiles.  
+  <b>jds_periSO_eventProbability_ReactivationSuppression_M.m</b>  -  Figure 6H  -  Plots the relationship between peri-SO CA1 reactivation strength and independent PFC ripple triggered CA1 assembly suppression.  
+  <b>jds_periSO_eventProbability_Reactivation_M.m</b>  -  Figure 6G  -  Plots SO trough aligned reactivation strength for CA1 and PFC to determine reactivation timing surrounding events.  
+  <b>jds_periSO_eventProbability_bootstrapTiming_M.m</b>  -  Figure 6E  -  Resampling of occurence matrix to determine significance of peaks of fold change probability plots.  
+  <b>jds_updown_replayProbabilityCoordNoncoord_M.m</b>  -  Figure 6C  -  Calculates the probability of SWR replay events during up and down states of the slow oscillations.  
 
   ./SupplementalFigures  
   <b>jds_CA1PFCcoreactivationRates_M.m</b>  -  Calculates CA1-PFC co-reactivation rates during different ripple types.  
@@ -70,6 +69,7 @@ FILES and FOLDERS
   <b>jds_ripplecoordinationtriggered_assemblystrength_M.m</b>  -  Plots coordinated ripple triggered assembly strength for CA1 and PFC.  
   <b>jds_rippletrig_crossripplepwr_M.m</b>  -  Plots the ripple power in the opposing area aligned to either independent or coordinated ripple events.  
   <b>jds_rippletriggered_CA1PFCassemblies_M.m</b>  -  Plots ripple triggerend CA1-PFC joint reactivation strength and looks at the relationship between different ripple events.  
+  <b>jds_CA1replay_rippleTypeSeqMetrics_M.m</b>  -  Compares weighted correlation, jump distances, R2, % reverse replay, and % significant replay for independent and        coordinated SWR replay (line fitting decoding method).  
   <b>jds_sleepEventRates_comparerunsleep_M.m</b>  -  Plots the rates of sleep oscillations (independent and coordinated ripples, SOs, spindles, run ripples).  
   <b>jds_sleepripplelengths_overtime_M.m</b>  -  Calculates ripple lengths over epochs.  
   <b>jds_sleepripplerate_performance_M.m</b>  -  Evaluates the relationship between ripple rate and behavioral performance.  
